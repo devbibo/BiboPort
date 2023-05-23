@@ -1,0 +1,256 @@
+*{
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background-color: #fff;
+    width: 100%;
+    position: fixed; /*علشان وقت السكرول الصورة او اللون مينزلش معايا*/
+    z-index: 999; /*علشان الناف بار او الهيدر ميختفيش*/
+    display: flex;
+    justify-content: space-between; /*يخلوا دول في حتة ودول في حتة تانية*/
+    align-items: center;
+    padding: 0.625em 6em; /*1 = top and bottom , 2 = right and left*/
+   
+}
+
+.logo{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase; /*بيخلي كل الكتابة كابيتال وردز*/
+    font-weight: 900; /*نسبة قد ايه الكتابة دي تخينة*/
+    font-size: 2.2em;
+
+}
+
+.navigation a{
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 1em;
+    
+}
+
+
+
+.navigation a:hover{
+    color: rgb(199, 199, 199);
+}
+
+
+section{
+    padding: 7em 9.2em;
+}
+
+.mainpage{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   background: url(Images/Backgrounds/main_background.png) no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.mainpage h1{
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+.mainpage h2{
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 800;
+   margin-top: 0.1em;
+   margin-bottom: 0.2em;
+}
+
+.mainpage h3{
+    color: rgb(126, 126, 126);
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.worksbtn{
+    color: #000;
+    text-decoration: none;
+    background-color: #ffffff;
+    font-size: 1em;
+    font-weight: 700;
+    display: inline-block; /*علشان ده انكر*/
+    padding: 1.1em;
+    border-radius: 2em;
+    margin-bottom: 1.5em;
+    transition: 0.8s ease;
+}
+
+.worksbtn:hover{
+    background-color: rgb(126, 126, 126);
+    transform: scale(1.3);
+}
+
+.smicons a{
+    color: #fff;
+    font-size: 1.2em;
+    padding-right: 1.2em;
+    transition: 0.6s ease;
+}
+
+
+.smicons a:hover{
+    color: rgb(126, 126, 126);
+}
+
+
+
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 1.3em;
+
+
+}
+
+.mycont{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    border-radius: 1.5em;
+    padding: 2em;
+    margin: 0.9em;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+    
+
+.icon{
+    font-size: 6em;
+    text-align: center;
+}
+
+
+.handp{
+    text-align: center;
+}
+
+
+.handp h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0.7em;
+
+}
+
+.works{
+    background: url(Images/Backgrounds/artworks_background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.works .mycont{
+    margin-top: 2em ;
+}
+
+.workscard{
+    background-color: #fff;
+    border: 0.1em solid #fff;
+    min-height: 14em;
+    width: 26em;
+    overflow: hidden;
+    border-radius: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    transition: 0.9s ease;
+}
+
+
+
+.workscard:hover{
+    transform: scale(1.1);
+}
+
+.workscard:hover .worksimage{
+    opacity: 0.9;
+}
+
+
+
+.worksimage img{
+    width: 100%;
+}
+
+.workstitle{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 1.3em;
+
+}
+
+.workscat{
+    font-size: 0.9em;
+  
+
+}
+
+
+.worksinfo{
+    padding: 1.2em;
+}
+
+
+.thisworkstitle{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0.6em;
+}
+
+
+.vtpimia{
+    text-decoration: none;
+    font-size: 0.9em;
+ 
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+
+
+}
+
+.vtpimia:hover{
+    color: rgb(93, 93, 93);
+}
+
+
